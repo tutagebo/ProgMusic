@@ -1,0 +1,375 @@
+{
+    "major": {
+        "transitionTable": {
+            "1": [
+                { "to": 4, "weight": 3 },
+                { "to": 5, "weight": 4 },
+                { "to": 6, "weight": 2 },
+                { "to": 2, "weight": 1 }
+            ],
+            "2": [
+                { "to": 5, "weight": 5 },
+                { "to": 7, "weight": 1 }
+            ],
+            "3": [
+                { "to": 6, "weight": 3 },
+                { "to": 4, "weight": 2 }
+            ],
+            "4": [
+                { "to": 5, "weight": 4 },
+                { "to": 2, "weight": 2 },
+                { "to": 1, "weight": 1 }
+            ],
+            "5": [
+                { "to": 1, "weight": 6 },
+                { "to": 6, "weight": 3 }
+            ],
+            "6": [
+                { "to": 2, "weight": 3 },
+                { "to": 4, "weight": 3 },
+                { "to": 5, "weight": 1 }
+            ],
+            "7": [
+                { "to": 1, "weight": 6 },
+                { "to": 3, "weight": 1 }
+            ]
+        },
+
+        "sectionBias": {
+            "intro": { "1": 1.3, "4": 1.2, "5": 1.2, "7": 0.6 },
+            "verse": { "1": 1.4, "4": 1.4, "6": 1.2, "5": 0.8, "7": 0.4 },
+            "bridge": {
+                "1": 0.7,
+                "2": 1.4,
+                "3": 1.3,
+                "4": 1.2,
+                "5": 1.4,
+                "6": 1.1,
+                "7": 0.8
+            },
+            "chorus": {
+                "1": 1.5,
+                "4": 1.3,
+                "5": 1.6,
+                "6": 1.3,
+                "2": 0.9,
+                "3": 0.9,
+                "7": 0.7
+            }
+        },
+
+        "startDegrees": {
+            "neutral": [
+                { "degree": 1, "weight": 1 },
+                { "degree": 2, "weight": 1 },
+                { "degree": 3, "weight": 1 },
+                { "degree": 4, "weight": 1 },
+                { "degree": 5, "weight": 1 },
+                { "degree": 6, "weight": 1 },
+                { "degree": 7, "weight": 1 }
+            ],
+            "bright": [
+                { "degree": 1, "weight": 5 },
+                { "degree": 4, "weight": 3 },
+                { "degree": 5, "weight": 3 }
+            ],
+            "dark": [
+                { "degree": 6, "weight": 5 },
+                { "degree": 2, "weight": 3 },
+                { "degree": 3, "weight": 2 }
+            ],
+            "tense": [
+                { "degree": 5, "weight": 5 },
+                { "degree": 7, "weight": 4 },
+                { "degree": 2, "weight": 3 }
+            ]
+        },
+
+        "endDegrees": {
+            "neutral": [
+                { "degree": 1, "weight": 1 },
+                { "degree": 2, "weight": 1 },
+                { "degree": 3, "weight": 1 },
+                { "degree": 4, "weight": 1 },
+                { "degree": 5, "weight": 1 },
+                { "degree": 6, "weight": 1 },
+                { "degree": 7, "weight": 1 }
+            ],
+            "bright": [
+                { "degree": 1, "weight": 6 },
+                { "degree": 5, "weight": 2 },
+                { "degree": 6, "weight": 1 }
+            ],
+            "dark": [
+                { "degree": 6, "weight": 5 },
+                { "degree": 1, "weight": 2 },
+                { "degree": 3, "weight": 2 }
+            ],
+            "tense": [
+                { "degree": 1, "weight": 5 },
+                { "degree": 5, "weight": 3 },
+                { "degree": 7, "weight": 2 }
+            ]
+        }
+    },
+
+    "natural_minor": {
+        "transitionTable": {
+            "1": [
+                { "to": 4, "weight": 3 },
+                { "to": 5, "weight": 4 },
+                { "to": 6, "weight": 2 },
+                { "to": 3, "weight": 1 }
+            ],
+            "2": [
+                { "to": 5, "weight": 4 },
+                { "to": 7, "weight": 1 }
+            ],
+            "3": [
+                { "to": 6, "weight": 3 },
+                { "to": 4, "weight": 2 }
+            ],
+            "4": [
+                { "to": 5, "weight": 4 },
+                { "to": 1, "weight": 2 },
+                { "to": 2, "weight": 1 }
+            ],
+            "5": [
+                { "to": 1, "weight": 6 },
+                { "to": 6, "weight": 3 }
+            ],
+            "6": [
+                { "to": 4, "weight": 3 },
+                { "to": 2, "weight": 2 },
+                { "to": 5, "weight": 1 }
+            ],
+            "7": [
+                { "to": 1, "weight": 5 },
+                { "to": 3, "weight": 2 }
+            ]
+        },
+
+        "sectionBias": {
+            "intro": { "1": 1.3, "3": 1.1, "4": 1.2, "6": 1.2, "7": 0.7 },
+            "verse": {
+                "1": 1.5,
+                "4": 1.4,
+                "6": 1.3,
+                "3": 1.2,
+                "5": 0.8,
+                "7": 0.6
+            },
+            "bridge": {
+                "1": 0.7,
+                "2": 1.3,
+                "4": 1.4,
+                "5": 1.5,
+                "6": 1.0,
+                "7": 1.2
+            },
+            "chorus": {
+                "1": 1.6,
+                "3": 1.3,
+                "4": 1.1,
+                "5": 1.5,
+                "6": 1.4,
+                "7": 0.9
+            }
+        },
+
+        "startDegrees": {
+            "neutral": [
+                { "degree": 1, "weight": 1 },
+                { "degree": 2, "weight": 1 },
+                { "degree": 3, "weight": 1 },
+                { "degree": 4, "weight": 1 },
+                { "degree": 5, "weight": 1 },
+                { "degree": 6, "weight": 1 },
+                { "degree": 7, "weight": 1 }
+            ],
+            "bright": [
+                { "degree": 1, "weight": 4 },
+                { "degree": 3, "weight": 3 },
+                { "degree": 6, "weight": 3 },
+                { "degree": 4, "weight": 2 }
+            ],
+            "dark": [
+                { "degree": 1, "weight": 5 },
+                { "degree": 6, "weight": 4 },
+                { "degree": 4, "weight": 3 },
+                { "degree": 2, "weight": 2 }
+            ],
+            "tense": [
+                { "degree": 5, "weight": 5 },
+                { "degree": 7, "weight": 4 },
+                { "degree": 2, "weight": 3 }
+            ]
+        },
+
+        "endDegrees": {
+            "neutral": [
+                { "degree": 1, "weight": 1 },
+                { "degree": 2, "weight": 1 },
+                { "degree": 3, "weight": 1 },
+                { "degree": 4, "weight": 1 },
+                { "degree": 5, "weight": 1 },
+                { "degree": 6, "weight": 1 },
+                { "degree": 7, "weight": 1 }
+            ],
+            "bright": [
+                { "degree": 1, "weight": 5 },
+                { "degree": 3, "weight": 2 },
+                { "degree": 6, "weight": 2 },
+                { "degree": 5, "weight": 1 }
+            ],
+            "dark": [
+                { "degree": 6, "weight": 4 },
+                { "degree": 1, "weight": 3 },
+                { "degree": 4, "weight": 3 }
+            ],
+            "tense": [
+                { "degree": 1, "weight": 4 },
+                { "degree": 5, "weight": 3 },
+                { "degree": 7, "weight": 3 }
+            ]
+        }
+    }  ,
+  "harmonic_minor": {
+    "transitionTable": {
+      "1": [
+        { "to": 4, "weight": 4 },  // i → iv
+        { "to": 5, "weight": 5 },  // i → V（強いドミナント）
+        { "to": 6, "weight": 2 },  // i → VI
+        { "to": 3, "weight": 1 }   // i → III+
+      ],
+      "2": [
+        { "to": 5, "weight": 5 },  // ii° → V
+        { "to": 7, "weight": 2 }   // ii° → vii°
+      ],
+      "3": [
+        { "to": 6, "weight": 3 },  // III+ → VI
+        { "to": 4, "weight": 2 },  // III+ → iv
+        { "to": 7, "weight": 1 }   // III+ → vii°
+      ],
+      "4": [
+        { "to": 5, "weight": 5 },  // iv → V
+        { "to": 1, "weight": 2 },  // iv → i
+        { "to": 2, "weight": 1 }   // iv → ii°
+      ],
+      "5": [
+        { "to": 1, "weight": 7 },  // V → i（超つよ解決）
+        { "to": 6, "weight": 3 },  // V → VI（偽終止）
+        { "to": 7, "weight": 1 }   // V → vii°
+      ],
+      "6": [
+        { "to": 4, "weight": 3 },  // VI → iv
+        { "to": 2, "weight": 2 },  // VI → ii°
+        { "to": 5, "weight": 2 }   // VI → V
+      ],
+      "7": [
+        { "to": 1, "weight": 7 },  // vii° → i（超つよ解決）
+        { "to": 3, "weight": 2 }   // vii° → III+
+      ]
+    },
+
+    "sectionBias": {
+      "intro": {
+        "1": 1.3,  // i
+        "3": 1.1,  // III+
+        "4": 1.2,  // iv
+        "6": 1.2,  // VI
+        "7": 0.7   // vii° 控えめ
+      },
+      "verse": {
+        // Aメロ: i / iv / VI 中心、V, vii° は控えめ
+        "1": 1.6,
+        "4": 1.4,
+        "6": 1.3,
+        "3": 1.2,
+        "5": 0.7,
+        "7": 0.6
+      },
+      "bridge": {
+        // Bメロ: サビへの「ため」。iv, V, ii°, vii° を増やす
+        "1": 0.7,
+        "2": 1.3,
+        "4": 1.5,
+        "5": 1.6,
+        "6": 1.0,
+        "7": 1.3
+      },
+      "chorus": {
+        // サビ: i を軸に、V / VII / VI で劇的な感じ
+        "1": 1.7,
+        "3": 1.2,
+        "4": 1.1,
+        "5": 1.6,
+        "6": 1.4,
+        "7": 1.2
+      }
+    },
+
+    "startDegrees": {
+      "neutral": [
+        { "degree": 1, "weight": 1 },
+        { "degree": 2, "weight": 1 },
+        { "degree": 3, "weight": 1 },
+        { "degree": 4, "weight": 1 },
+        { "degree": 5, "weight": 1 },
+        { "degree": 6, "weight": 1 },
+        { "degree": 7, "weight": 1 }
+      ],
+      "bright": [
+        // 暗いけどちょい希望感：i, III+, VI
+        { "degree": 1, "weight": 4 },
+        { "degree": 3, "weight": 3 },
+        { "degree": 6, "weight": 3 },
+        { "degree": 4, "weight": 2 }
+      ],
+      "dark": [
+        // しっかり暗い：i, VI, iv, ii°
+        { "degree": 1, "weight": 5 },
+        { "degree": 6, "weight": 4 },
+        { "degree": 4, "weight": 3 },
+        { "degree": 2, "weight": 2 }
+      ],
+      "tense": [
+        // 緊張感スタート：V, vii°, ii°
+        { "degree": 5, "weight": 5 },
+        { "degree": 7, "weight": 4 },
+        { "degree": 2, "weight": 3 }
+      ]
+    },
+
+    "endDegrees": {
+      "neutral": [
+        { "degree": 1, "weight": 1 },
+        { "degree": 2, "weight": 1 },
+        { "degree": 3, "weight": 1 },
+        { "degree": 4, "weight": 1 },
+        { "degree": 5, "weight": 1 },
+        { "degree": 6, "weight": 1 },
+        { "degree": 7, "weight": 1 }
+      ],
+      "bright": [
+        // 暗い中での「希望寄り」終止：i, III+, VI
+        { "degree": 1, "weight": 5 },
+        { "degree": 3, "weight": 2 },
+        { "degree": 6, "weight": 2 },
+        { "degree": 5, "weight": 1 }
+      ],
+      "dark": [
+        // しっかり暗く着地：i, VI, iv
+        { "degree": 6, "weight": 4 },
+        { "degree": 1, "weight": 3 },
+        { "degree": 4, "weight": 3 }
+      ],
+      "tense": [
+        // 不穏さを残す：i, V, vii°
+        { "degree": 1, "weight": 4 },
+        { "degree": 5, "weight": 3 },
+        { "degree": 7, "weight": 3 }
+      ]
+    }
+  }
+}
