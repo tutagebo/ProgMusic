@@ -1,1 +1,0 @@
-{"version":3,"file":"scale.js","sourceRoot":"","sources":["../../src/lib/scale.ts"],"names":[],"mappings":";;;AACA,iCAAmD;AAEnD,MAAa,KAAK;IACN,IAAI,CAAa;IACjB,SAAS,CAAoB;IACrC,YAAY,IAAgB,EAAE,IAAe;QACzC,IAAI,CAAC,IAAI,GAAG,IAAI,CAAC;QACjB,IAAI,CAAC,SAAS,GAAG,qBAAc,CAAC,IAAI,CAAC,CAAC;IAC1C,CAAC;CACJ;AAPD,sBAOC"}
